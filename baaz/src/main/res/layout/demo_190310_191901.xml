@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/color3_1"
+    android:orientation="vertical"
+    android:layout_gravity="end"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/id_190310_191900_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green_lawngreen"
+        android:text="some text" />
+
+</merge>

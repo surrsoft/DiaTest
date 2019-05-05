@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">baaz</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_aninepng">ANinepng</string>
+    <string name="n2190_nodate">без даты</string>
+    <string name="n2190_anydate">любая дата</string>
+    <string name="n2197_nodate">без даты</string>
+    <string name="n2197_anyvalue">любая дата</string>
+    <string name="n2197_asselect">как выбрано</string>
+    <string name="menu_ok">OK</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="baaz_dialog_btn_ok" translatable="false">OK</string>
+    <string name="baaz_dialog_btn_cancel">Отмена</string>
+</resources>

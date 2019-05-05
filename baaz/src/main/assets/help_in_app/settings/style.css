@@ -1,0 +1,51 @@
+*{
+    font-size:14px;
+}
+
+i {
+    color:blue;
+}
+
+h1 {
+    font-size:120%;
+    color:green;
+}
+
+h2 {
+    font-size:110%;
+    font-style: italic;
+    color:darkblue;
+}
+
+a[href=""]{
+    color:red;
+}
+
+#nameCurrentFile{
+    color:#aaaaaa;
+    font-size: 80%;
+    font-family: monospace;
+    margin-top: 5px;
+}
+
+#hide{
+    display: none;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.css_center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.img_comm{
+    font-style: italic;
+}
+.codes{
+    color:blue;
+    font-family:monospace;
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- установка оформления "подчеркивание" для текста -->
+    <attr name="g67gllltextUnderline" format="boolean" />
+    <!-- установка оформления "выделение жирным" для текста -->
+    <attr name="g67gllltextBold" format="boolean" />
+    <!-- установка оформления "наклонный" для текста -->
+    <attr name="g67gllltextItalic" format="boolean" />
+
+    <attr name="g67g_text1" format="string" />
+    <attr name="g67g_text2" format="string" />
+
+    <!-- Рамка вокруг всего элемента -->
+    <attr name="g67glllborderAll" format="boolean" />
+
+    <!-- Цвет рамки -->
+    <attr name="g67glllborderColor" format="color" />
+    <attr name="g67gllltextColorPressed" format="color" />
+    <attr name="_g67g_color" format="color|reference" />
+    <attr name="_g67g_color2" format="color|reference" />
+    <attr name="_g67g_colorPressed" format="color" />
+    <attr name="_g67g_colorBackground" format="color" />
+
+    <attr name="_g67g_widthDp" format="dimension" />
+    <attr name="_g67g_widthDp2" format="dimension" />
+    <attr name="_g67g_heightDp" format="dimension" />
+    <attr name="_g67g_heightDp2" format="dimension" />
+    <!-- толщина чего-либо в dp -->
+    <attr name="_g67g_thDp" format="dimension" />
+
+    <!-- алиас иконки -->
+    <attr name="_g67g_icon" format="string" />
+
+    <attr name="_g67g_widthImage" format="dimension" />
+    <attr name="_g67g_heightImage" format="dimension" />
+    <attr name="_g67g_rSize" format="float" />
+    <attr name="_g67g_rDist" format="float" />
+    <attr name="_g67g_rDist2" format="float" />
+    <attr name="_g67g_datas" format="reference" />
+
+    <attr name="_g67g_stateActive" format="boolean" />
+
+    <attr name="_g67g_side" format="enum">
+        <enum name="left" value="0" />
+        <enum name="top" value="1" />
+        <enum name="right" value="2" />
+        <enum name="bottom" value="3" />
+    </attr>
+
+    <attr name="_g67g_font" format="string" />
+    <attr name="_g67g_state" format="integer" />
+
+    <declare-styleable name="VBtnImg">
+        <attr name="_g67g_color" />
+        <attr name="_g67g_colorPressed" />
+        <attr name="_g67g_colorBackground" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="_g67g_icon" />
+    </declare-styleable>
+    <declare-styleable name="VBtnSLD">
+        <attr name="_g67g_color" />
+        <attr name="_g67g_colorPressed" />
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="VImageButton">
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <!-- изображение-для-кнопки -->
+        <attr name="android:src" />
+        <attr name="android:background" />
+        <!-- цвет в состоянии default -->
+        <attr name="_g67g_color" />
+        <!-- цвет в состоянии pressed -->
+        <attr name="_g67g_colorPressed" />
+        <!-- ширина изображения-для-кнопки -->
+        <attr name="_g67g_widthImage" />
+        <!-- высота изображения-для-кнопки -->
+        <attr name="_g67g_heightImage" />
+    </declare-styleable>
+    <declare-styleable name="VMultiSwitch">
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <!-- цвет Balon активного -->
+        <attr name="_g67g_color" />
+        <!-- цвет Balon неактивного -->
+        <attr name="_g67g_color2" />
+        <!-- относительный размер Balon -->
+        <attr name="_g67g_rSize" />
+        <!-- относительное расстояние между соседними Balons -->
+        <attr name="_g67g_rDist" />
+        <!-- относительное расстояние Buble от края виджета -->
+        <attr name="_g67g_rDist2" />
+        <!-- содержимое виджета - массив строк -->
+        <attr name="_g67g_datas" />
+        <!-- где разместить Bulble, использовать top или bottom -->
+        <attr name="_g67g_side" />
+        <!-- какой шрифт использовать -->
+        <attr name="_g67g_font" />
+    </declare-styleable>
+    <declare-styleable name="VSeekBarInfinity">
+        <!--цвет штрихов-->
+        <attr name="_g67g_color" />
+    </declare-styleable>
+    <declare-styleable name="VBtnFont">
+        <!-- цвет в состоянии pressed -->
+        <attr name="_g67g_colorPressed" />
+        <!--имя файла шрифта относительно кораня папки assets-->
+        <attr name="_g67g_font" />
+    </declare-styleable>
+
+    <declare-styleable name="VBtnSelect">
+        <!--имя файла шрифта относительно кораня папки assets-->
+        <attr name="_g67g_font" />
+        <!--цвет метки-->
+        <attr name="_g67g_color" />
+        <!--состояние-->
+        <attr name="_g67g_state" />
+
+    </declare-styleable>
+
+    <declare-styleable name="XVUpdate">
+        <attr name="_g67g_color" />
+        <attr name="g67g_text1" />
+        <attr name="android:textColor" />
+        <attr name="android:text" />
+    </declare-styleable>
+
+    <declare-styleable name="VBtnSelect_B">
+        <attr name="_g67g_font" />
+        <attr name="_g67g_color" />
+        <attr name="_g67g_state" />
+    </declare-styleable>
+
+</resources>

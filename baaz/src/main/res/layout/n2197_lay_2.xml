@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/n2197_2_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/n2197_2_ot"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/n2197_2_title"
+        android:gravity="center"
+        android:text="от" />
+
+    <TextView
+        android:id="@+id/n2197_2_do"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/n2197_2_ot"
+        android:gravity="center"
+        android:text="до" />
+
+    <EditText
+        android:id="@+id/n2197_2_editText_ot"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/n2197_2_title"
+        android:layout_toRightOf="@id/n2197_2_ot"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/n2197_2_editText_do"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/n2197_2_editText_ot"
+        android:layout_toRightOf="@id/n2197_2_do"
+        android:selectAllOnFocus="true" />
+
+</RelativeLayout>

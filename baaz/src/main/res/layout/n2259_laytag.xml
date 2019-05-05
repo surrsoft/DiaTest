@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- #version 1 05-06-2016 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <!--android:background="@drawable/n2259_shape_bg_1"-->
+    <!--//0752//-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/n2259_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ru.surrsoft.baaz.widgets.buttons.N2249_BtnPNG
+        android:id="@+id/n2259_btndel"
+        android:layout_width="18dp"
+        android:layout_height="18dp" />
+
+</LinearLayout>

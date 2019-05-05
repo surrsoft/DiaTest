@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="c52">#FF50FF</color>
+    <color name="c54">#FF60FF</color>
+
+    <color name="color1">#a3a1a1</color>
+    <color name="color2">#6f2108</color>
+    <color name="color3">#e3632d</color>
+    <color name="color3_1">#90e3632d</color>
+    <color name="color4">#e77e4d</color>
+    <color name="color5">#f94e3f</color>
+    <color name="color6">#ff7473</color>
+    <color name="color6a">#ffc952</color>
+    <color name="color6b">#47b8e0</color>
+    <color name="color6b_1">#9047b8e0</color>
+    <color name="color6c">#34314c</color>
+
+    <!--[xcardparam]-->
+    <!--цвет линии внизу-->
+    <color name="color7_line">#000000</color>
+    <color name="color7_bg">#FFFFFF</color>
+
+    <!---->
+    <color name="color8">#cddc39</color>
+
+    <color name="nnn">#cddc39</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!--#version 2-2 12-04-2016 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/n2186_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ru.surrsoft.baaz.widgets.switchers.N2187_BtnFontTwoState
+            android:id="@+id/n2186_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center" />
+
+        <ru.surrsoft.baaz.widgets.datainput.N2188_EditText
+            android:id="@+id/n2186_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/n2186_btn"
+            android:background="@null"
+            android:selectAllOnFocus="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/n2186_comm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

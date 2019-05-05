@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/ru.surrsoft.baaz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layBase1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/dd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_menu_gallery" />
+
+        <ImageView
+            android:id="@+id/dd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_menu_camera" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Белый фон. Горизонтальная линия внизу (@drawable/w206w_0001_shape)" />
+
+        <TextView
+            android:id="@+id/w206w_0001"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/w206w_0001_shape"
+            android:text="111" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Белый фон. Горизонтальная линия внизу (@drawable/w206w_0002_shape)" />
+
+        <TextView
+            android:id="@+id/w206w_0002"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/w206w_0002_shape"
+            android:text="111" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------- Shape аля Material-карточка (@drawable/w206w_0004_material_card_bg)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="при использовании возникают проблемы с тем чтобы задать padding" />
+
+        <TextView
+            android:id="@+id/w206w_0003"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/w206w_0004_material_card_bg"
+            android:text="111" />
+
+    </LinearLayout>
+
+</ScrollView>

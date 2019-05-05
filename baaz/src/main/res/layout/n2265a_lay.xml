@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/n2265a_scrollLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:onClick="xsection_card_title"-->
+            <!--android:text="Разделы. Карточки. Заголовок" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/xsection_card_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="TEST Test test 0123456789 ТЕСТ Тест тест" />-->
+
+        <!--&lt;!&ndash; ================================================================  &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:onClick="test05"-->
+            <!--android:text="test05" />-->
+
+        <!--<ru.surrsoft.baaz.widgets.buttons.N2249_BtnPNG-->
+            <!--android:id="@+id/test05a"-->
+            <!--android:layout_width="48dp"-->
+            <!--android:layout_height="48dp" />-->
+
+        <!--&lt;!&ndash; ================================================================  &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:onClick="xarticles_cards_tags__text"-->
+            <!--android:text="Статьи. Карточки. Теги : Текст" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/xarticles_cards_tags__text"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Текст тега" />-->
+
+
+        <!--&lt;!&ndash; ================================================================  &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:onClick="xarticles_cards__title"-->
+            <!--android:tag="xarticles_cards__title"-->
+            <!--android:text="Статьи. Карточки : Заголовок" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/xarticles_cards__title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Заголовок" />-->
+
+    </LinearLayout>
+</ScrollView>

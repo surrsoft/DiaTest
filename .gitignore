@@ -1,0 +1,25 @@
+# rev. 1.0
+
+.gradle
+/local.properties
+/build
+/app/build
+/projectFilesBackup*
+
+# Intellij files
+*.iml
+
+# proguard
+proguard-rules.pro/
+
+# файлы генерируемые Layout Inspector или Method Tracing (см. https://stackoverflow.com/questions/42415431/what-is-the-captures-directory-in-android-project)
+/captures
+
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+.externalNativeBuild

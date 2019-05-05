@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!-- #version 2 03-06-2016  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--android:padding="10dp"-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/n2233_btnopt"-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:clickable="true"-->
+    <!--android:text="" />-->
+
+    <ru.surrsoft.baaz.widgets.buttons.N2249_BtnPNG
+        android:id="@+id/n2233_btnopt"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/n2233_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/n2233_laycontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"
+        android:layout_toLeftOf="@id/n2233_btnopt"
+        android:layout_toRightOf="@id/n2233_icon"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

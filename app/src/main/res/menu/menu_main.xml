@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.diatest.vk.AMain">
+    <item
+        android:id="@+id/action_pin"
+        android:orderInCategory="100"
+        android:title="Защитить PIN кодом"
+        app:showAsAction="never" />
+</menu>

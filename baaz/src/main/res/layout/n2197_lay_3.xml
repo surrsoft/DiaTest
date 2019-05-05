@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><!--#version 2 10-04-2016  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/n2197_3_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/n2197_3_ot"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/n2197_3_title"
+        android:gravity="center"
+        android:text="от" />
+
+    <TextView
+        android:id="@+id/n2197_3_do"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/n2197_3_ot"
+        android:gravity="center"
+        android:text="до" />
+
+    <TextView
+        android:id="@+id/n2197_3_otDelBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/n2197_3_title"
+        android:background="@color/green" />
+
+    <TextView
+        android:id="@+id/n2197_3_doDelBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/n2197_3_otDelBtn"
+        android:background="@color/purple" />
+
+    <TextView
+        android:id="@+id/n2197_3_editText_ot"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/n2197_3_title"
+        android:layout_toLeftOf="@id/n2197_3_otDelBtn"
+        android:layout_toRightOf="@id/n2197_3_ot"
+        android:clickable="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/n2197_3_editText_do"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/n2197_3_editText_ot"
+        android:layout_toLeftOf="@id/n2197_3_doDelBtn"
+        android:layout_toRightOf="@id/n2197_3_do"
+        android:clickable="true"
+        android:gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/n2197_3_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/n2197_3_editText_do">
+
+        <RadioButton
+            android:id="@+id/n2197_3_radioAsSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/n2197_asselect" />
+
+        <RadioButton
+            android:id="@+id/n2197_3_radioNoValid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/n2197_nodate" />
+
+        <RadioButton
+            android:id="@+id/n2197_3_radioAnyValid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/n2197_anyvalue" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

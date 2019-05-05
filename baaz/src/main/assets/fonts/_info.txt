@@ -1,0 +1,4 @@
+inf1 - пробный шрифт созданный в сервисе fontello
+
+my_time - это шрифт который я собрал на fontello.com
+font_hands.ttf - руки, собран на fontello.com

@@ -1,0 +1,64 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.surrsoft.baaz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+        <activity
+            android:name=".demo.ABaazDemo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".p01_db.demo.ADrvxDemo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".demo.cardview.ACardViewDemo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".demo.ASeekBarDemo_01"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".demo.ABuTextSwitcherDemo_01"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".demo.AInflateDemo_01"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".demo.pkor_demo.AWgPkorDemo_01"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".demo.pkor_b_demo.AWgPkor_B_Demo_01"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".widgets2.budialogview.demo.ABuDialogDemo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".widgets2.buedittext.demo.ABuEditTextDemo_01"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".widgets2.ztoa.demo.AZtoaDemo_01"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".widgets2.uasa.demo.AWgUasa_01_Demo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".widgets2.mcmz.demo.AWgMcmz_Demo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".widgets2.amgr.demo.AWgAmgrDemo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".widgets2.awoh.demo.ABuAwohDemo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".demo.A_FAB_Demo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".demo.ATimeDemo"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".datetime.demo.AKrDateDemo"
+            android:theme="@style/Theme.AppCompat.Light" />
+    </application>
+
+</manifest>
